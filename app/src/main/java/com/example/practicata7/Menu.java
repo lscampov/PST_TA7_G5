@@ -24,10 +24,10 @@ public class Menu extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void mapa(View view) {
-        Intent i = new Intent(this, Mapa.class );
-        startActivity(i);
-    }
+    //public void mapa(View view) {
+    //    Intent i = new Intent(this, Mapa.class );
+    //    startActivity(i);
+    //}
 
     public void descripcion(View view) {
         Intent i = new Intent(this, Descripcion.class );

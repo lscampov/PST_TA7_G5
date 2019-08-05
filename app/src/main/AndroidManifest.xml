@@ -16,7 +16,6 @@
         <activity android:name=".Fiec"></activity>
         <activity android:name=".CorreoInfo" />
         <activity android:name=".Descripcion" />
-        <activity android:name=".Mapa" />
         <activity android:name=".Facultades" />
         <activity android:name=".Menu">
             <intent-filter>
