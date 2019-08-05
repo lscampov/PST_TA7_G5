@@ -13,7 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Fcv"></activity>
+        <activity android:name=".Fimcm"></activity>
+        <activity android:name=".Fict" />
+        <activity android:name=".Fcsh" />
+        <activity android:name=".Fcnm" />
+        <activity android:name=".Fcv" />
         <activity android:name=".Fadcom" />
         <activity android:name=".Fiec" />
         <activity android:name=".CorreoInfo" />
