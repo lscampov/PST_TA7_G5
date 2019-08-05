@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fadcom">
+    tools:context=".Fcv">
 
     <LinearLayout
         android:layout_width="395dp"
@@ -24,7 +24,7 @@
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="79dp"
-            android:text="FACULTAD DE ARTE, DISEÑO Y COMUNICACION AUDIOVISUAL"
+            android:text="Facultad Ciencias de la Vida "
             android:textAlignment="center"
             android:textSize="24sp" />
 
@@ -70,5 +70,5 @@
             android:layout_height="38dp" />
 
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
 
+</androidx.constraintlayout.widget.ConstraintLayout>
