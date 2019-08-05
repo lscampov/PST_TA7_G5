@@ -38,7 +38,7 @@ public class Fadcom extends AppCompatActivity {
             tx1.setText("8,08");
             img1.setImageResource(R.drawable.comp);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
-        }else if (seleccion.equals("Producción para Medios de Comunicación")){
+        }else if (seleccion.equals("Produción para Medios de Comunicación")){
             tx1.setText("7,89");
             img1.setImageResource(R.drawable.telematica);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
