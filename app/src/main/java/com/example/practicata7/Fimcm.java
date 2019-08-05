@@ -24,22 +24,22 @@ public class Fimcm extends AppCompatActivity {
         tx1= (TextView)findViewById(R.id.prom);
         img1= (ImageView)findViewById(R.id.imageView);
 
-        String [] opciones= {"Ingeniería en Electricidad","Ingeniería en Computación","Ingeniería en Telemática"};
+        String [] opciones= {"Ingeniería naval","Ingeniería en Acuicultura","Ingeniería en Oceanografía"};
         ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opciones);
         spinner1.setAdapter(adapter);
     }
 
     public void Seleccionar(View v){
         String seleccion= spinner1.getSelectedItem().toString();
-        if (seleccion.equals("Ingeniería en Electricidad")){
+        if (seleccion.equals("Ingeniería naval")){
             img1.setImageResource(R.drawable.elect);
             tx1.setText("8,47");
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
-        } else if (seleccion.equals("Ingeniería en Computación")){
+        } else if (seleccion.equals("Ingeniería en Acuicultura ")){
             tx1.setText("8,08");
             img1.setImageResource(R.drawable.comp);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
-        }else if (seleccion.equals("Ingeniería en Telemática")){
+        }else if (seleccion.equals("Ingeniería en Oceanografía")){
             tx1.setText("7,89");
             img1.setImageResource(R.drawable.telematica);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
