@@ -39,7 +39,7 @@ public class Fict extends AppCompatActivity {
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         } else if (seleccion.equals("Ingeniería en Geologia")){
             tx1.setText("8,08");
-            img1.setImageResource(R.drawable.geologia);
+            img1.setImageResource(R.drawable.geologia); 
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }else if (seleccion.equals("Ingeniería civil")){
             tx1.setText("7,89");
