@@ -31,16 +31,16 @@ public class Fadcom extends AppCompatActivity {
     public void Seleccionar(View v){
         String seleccion= spinner1.getSelectedItem().toString();
         if (seleccion.equals("Diseño de Productos")){
-            img1.setImageResource(R.drawable.elect);
+            img1.setImageResource(R.drawable.productos);
             tx1.setText("8,47");
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         } else if (seleccion.equals("Diseño Gráfico ")){
             tx1.setText("8,08");
-            img1.setImageResource(R.drawable.comp);
+            img1.setImageResource(R.drawable.diseno);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }else if (seleccion.equals("Producción para Medios de Comunicación")){
             tx1.setText("7,89");
-            img1.setImageResource(R.drawable.telematica);
+            img1.setImageResource(R.drawable.comunicacion);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }
 

@@ -24,7 +24,7 @@ public class Fimcm extends AppCompatActivity {
         tx1= (TextView)findViewById(R.id.prom);
         img1= (ImageView)findViewById(R.id.imageView);
 
-        String [] opciones= {"Ingeniería naval","Ingeniería en Acuicultura","Ingeniería en Oceanografía"};
+        String [] opciones= {"Ingeniería naval","Ingeniería en Acuicultura","Ingeniería en Oceanografia"};
         ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opciones);
         spinner1.setAdapter(adapter);
     }
@@ -32,16 +32,16 @@ public class Fimcm extends AppCompatActivity {
     public void Seleccionar(View v){
         String seleccion= spinner1.getSelectedItem().toString();
         if (seleccion.equals("Ingeniería naval")){
-            img1.setImageResource(R.drawable.elect);
+            img1.setImageResource(R.drawable.naval);
             tx1.setText("8,47");
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         } else if (seleccion.equals("Ingeniería en Acuicultura ")){
             tx1.setText("8,08");
-            img1.setImageResource(R.drawable.comp);
+            img1.setImageResource(R.drawable.acuicultura);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
-        }else if (seleccion.equals("Ingeniería en Oceanografía")){
+        }else if (seleccion.equals("Ingeniería en Oceanografia")){
             tx1.setText("7,89");
-            img1.setImageResource(R.drawable.telematica);
+            img1.setImageResource(R.drawable.oceanografia);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }
 

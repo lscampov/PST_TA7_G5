@@ -25,7 +25,7 @@ public class Fict extends AppCompatActivity {
         tx1= (TextView)findViewById(R.id.prom);
         img1= (ImageView)findViewById(R.id.imageView);
 
-        String [] opciones= {"Ingeneria en Minas","Ingeniería en Petroleos","Ingeniería civil"};
+        String [] opciones= {"Ingeneria en Minas","Ingeniería en Geologia","Ingeniería civil"};
         ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opciones);
         spinner1.setAdapter(adapter);
 
@@ -34,16 +34,16 @@ public class Fict extends AppCompatActivity {
     public void Seleccionar(View v){
         String seleccion= spinner1.getSelectedItem().toString();
         if (seleccion.equals("Ingeneria en Minas")){
-            img1.setImageResource(R.drawable.elect);
+            img1.setImageResource(R.drawable.minas);
             tx1.setText("8,47");
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
-        } else if (seleccion.equals("Ingeniería en Petroleos")){
+        } else if (seleccion.equals("Ingeniería en Geologia")){
             tx1.setText("8,08");
-            img1.setImageResource(R.drawable.comp);
+            img1.setImageResource(R.drawable.geologia);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }else if (seleccion.equals("Ingeniería civil")){
             tx1.setText("7,89");
-            img1.setImageResource(R.drawable.telematica);
+            img1.setImageResource(R.drawable.civil);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }
 

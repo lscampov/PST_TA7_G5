@@ -24,24 +24,24 @@ public class Fimcp extends AppCompatActivity {
         tx1= (TextView)findViewById(R.id.prom);
         img1= (ImageView)findViewById(R.id.imageView);
 
-        String [] opciones= {"Ingeniería Industrial","Ingeniería en Mecanica","Ingeniería en Mecatronica"};
+        String [] opciones= {"Ingeniería Alimentos","Ingeniería en Mecanica","Ingeniería en Mecatronica"};
         ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opciones);
         spinner1.setAdapter(adapter);
 
     }
     public void Seleccionar(View v){
         String seleccion= spinner1.getSelectedItem().toString();
-        if (seleccion.equals("Ingeniería Industrial")){
-            img1.setImageResource(R.drawable.elect);
+        if (seleccion.equals("Ingeniería Alimentos")){
+            img1.setImageResource(R.drawable.alimentos);
             tx1.setText("8,47");
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         } else if (seleccion.equals("Ingeniería en Mecanica")){
             tx1.setText("8,08");
-            img1.setImageResource(R.drawable.comp);
+            img1.setImageResource(R.drawable.mecanica);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }else if (seleccion.equals("Ingeniería en Mecatronica")){
             tx1.setText("7,89");
-            img1.setImageResource(R.drawable.telematica);
+            img1.setImageResource(R.drawable.mecatronica);
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }
 

@@ -32,16 +32,16 @@ public class Fcv extends AppCompatActivity {
     public void Seleccionar(View v){
         String seleccion= spinner1.getSelectedItem().toString();
         if (seleccion.equals("Biología")){
-            img1.setImageResource(R.drawable.elect);
+            img1.setImageResource(R.drawable.biologia);
             tx1.setText("8,47");
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         } else if (seleccion.equals("Nutrición y Dietética")){
             tx1.setText("8,08");
-            img1.setImageResource(R.drawable.comp);
+            img1.setImageResource(R.drawable.nutricion;
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }else if (seleccion.equals("Ingeniería Agrícola y Biológica")){
             tx1.setText("7,89");
-            img1.setImageResource(R.drawable.telematica);
+            img1.setImageResource(R.drawable.agricola;
             Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }
 
