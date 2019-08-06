@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Fimcm"></activity>
+        <activity android:name=".Fimcp"></activity>
+        <activity android:name=".Fimcm" />
         <activity android:name=".Fict" />
         <activity android:name=".Fcsh" />
         <activity android:name=".Fcnm" />
