@@ -26,7 +26,7 @@ public class Fimcm extends AppCompatActivity {
 
         String [] opciones= {"Ingeniería naval","Ingeniería en Acuicultura","Ingeniería en Oceanografia"};
         ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opciones);
-        spinner1.setAdapter(adapter);
+        spinner1.setAdapter(adapter); 
     }
 
     public void Seleccionar(View v){
