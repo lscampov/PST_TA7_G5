@@ -26,6 +26,7 @@
         android:layout_marginStart="112dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/fimcp"
+        android:onClick="fimcp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
@@ -36,6 +37,7 @@
         android:layout_marginStart="112dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/fcnm"
+        android:onClick="fcnm"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
@@ -46,6 +48,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/fcsh"
+        android:onClick="fcsh"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
 
@@ -56,6 +59,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/logooriginal"
+        android:onClick="fict"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
 
@@ -66,6 +70,7 @@
         android:layout_marginStart="108dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/edcom"
+        android:onClick="fadcom"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
 
@@ -76,6 +81,7 @@
         android:layout_marginStart="112dp"
         android:layout_marginTop="35dp"
         android:background="@drawable/fimcbor"
+        android:onClick="fcv"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
