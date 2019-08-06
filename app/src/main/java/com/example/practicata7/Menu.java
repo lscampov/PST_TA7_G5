@@ -1,5 +1,6 @@
 package com.example.practicata7;
 
+//Importaciones
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
