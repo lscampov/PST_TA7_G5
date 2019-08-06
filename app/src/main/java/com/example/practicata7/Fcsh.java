@@ -43,7 +43,7 @@ public class Fcsh extends AppCompatActivity {
         }else if (seleccion.equals("Ingeniería en Turismo")){
             tx1.setText("7,89");
             img1.setImageResource(R.drawable.turismo);
-            Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show(); 
+            Toast.makeText(this, "Selección Exitosa", Toast.LENGTH_LONG).show();
         }
 
     }
