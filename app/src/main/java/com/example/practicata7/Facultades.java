@@ -14,6 +14,10 @@ public class Facultades extends AppCompatActivity {
         setContentView(R.layout.facultades);
     }
 
+    public void fiec(View v) {
+        Intent i = new Intent(this, Fiec.class );
+        startActivity(i);
+    }
     public void fimcp(View v) {
         Intent i = new Intent(this, Fimcp.class );
         startActivity(i);
@@ -30,7 +34,6 @@ public class Facultades extends AppCompatActivity {
     }public void fcsh(View v) {
         Intent i = new Intent(this, Fcsh.class );
         startActivity(i);
-
     }
     public void fcnm(View v) {
         Intent i = new Intent(this, Fcnm.class );

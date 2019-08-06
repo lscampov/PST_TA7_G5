@@ -8,8 +8,8 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="227dp"
-        android:layout_height="61dp"
+        android:layout_width="199dp"
+        android:layout_height="55dp"
         android:layout_marginStart="96dp"
 
         android:layout_marginTop="32dp"
@@ -21,10 +21,10 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="182dp"
-        android:layout_height="68dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="197dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/fimcp"
         android:onClick="fimcp"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,10 +32,10 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="184dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="197dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/fcnm"
         android:onClick="fcnm"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,10 +43,10 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="204dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="198dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/fcsh"
         android:onClick="fcsh"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,21 +54,21 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="209dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="198dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/logooriginal"
-        android:onClick="fict"
+        android:onClick="fcv"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:layout_width="186dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/edcom"
         android:onClick="fadcom"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,12 +76,23 @@
 
     <ImageButton
         android:id="@+id/imageButton7"
-        android:layout_width="173dp"
+        android:layout_width="198dp"
         android:layout_height="58dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/fimcbor"
-        android:onClick="fcv"
+        android:onClick="fimcm"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="198dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/fict"
+        android:onClick="fict"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
